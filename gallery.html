@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Галерея — Музеї світу</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="img/logo.jpg" alt="Логотип" class="logo-img" />
+        <span class="logo-text ms-2">Музеї світу</span>
+      </a>
+      <div class="menu-toggle d-lg-none">&#9776;</div>
+      <ul id="mainMenu" class="menu d-flex flex-wrap align-items-center gap-3 mb-0">
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="about.html">Про сайт</a></li>
+        <li><a href="gallery.html" class="active">Галерея</a></li>
+        <li><a href="news.html">Новини</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container my-5">
+    <section id="gallery" class="my-section visible">
+      <h2>Галерея</h2>
+     <p class="text-center mb-4">
+      Візуальна подорож музеями світу — від Лувру до Метрополітен, від Ватиканських залів до сучасних мультимедійних експозицій. 
+      Натисніть на фото, щоб дізнатися більше про кожен музей та його унікальні колекції.
+     </p>
+      <div class="grid-gallery">
+  <img src="img/gallery1.jpg" alt="Лувр, Париж" class="gallery-img" data-full="
+    <strong>Лувр</strong> — найбільший художній музей світу, розташований у Парижі, Франція.
+    Музей розташований у колишньому королівському палаці та містить понад 35 000 експонатів.
+    Його перлина — <em>«Мона Ліза»</em> Леонардо да Вінчі, а також «Венера Мілоська», «Кодекс Гаммара» та інші шедеври світового мистецтва.
+  ">
+
+  <img src="img/gallery2.jpg" alt="Британський музей, Лондон" class="gallery-img" data-full="
+    <strong>Британський музей</strong> у Лондоні — один з найстаріших музеїв у світі, заснований 1753 року.
+    Його колекція включає Розетський камінь, грецькі скульптури Парфенона, мумії стародавнього Єгипту та артефакти з Месопотамії, Китаю, Африки та Америки.
+    Вхід до музею — безкоштовний.
+  ">
+
+  <img src="img/gallery3.jpg" alt="Метрополітен, Нью-Йорк" class="gallery-img" data-full="
+    <strong>Метрополітен-музей мистецтв</strong> (The Met) у Нью-Йорку — найбільший художній музей у США.
+    Його фонди охоплюють понад 5 000 років мистецтва: від давньоєгипетських саркофагів до імпресіоністів, від азійських колекцій до середньовічної зброї.
+    Метрополітен відомий своєю величною архітектурою і даховими виставками.
+  ">
+
+  <img src="img/gallery4.jpg" alt="Ватиканські музеї, Рим" class="gallery-img" data-full="
+    <strong>Ватиканські музеї</strong> — комплекс музеїв у Ватикані, створений папами протягом століть.
+    Тут зберігається Сікстинська капела з фресками Мікеланджело, Станци Рафаеля, скульптури Лаокоонта, античні мозаїки, середньовічне та ренесансне мистецтво.
+    Щороку музеї відвідують понад 6 мільйонів людей.
+  ">
+
+  <img src="img/gallery5.jpg" alt="Музей Прадо, Мадрид" class="gallery-img" data-full="
+    <strong>Музей Прадо</strong> в Мадриді — головний музей Іспанії, відомий багатою колекцією живопису.
+    Основу становлять роботи іспанських майстрів: Веласкеса, Гойї, Ель Греко. Також представлені твори Тиціана, Рубенса, Босха та Рафаеля.
+    Прадо — центр вивчення європейського мистецтва XVI–XIX століть.
+  ">
+
+  <img src="img/gallery6.jpg" alt="Національний музей Токіо" class="gallery-img" data-full="
+    <strong>Національний музей Токіо</strong> — найстаріший музей Японії, заснований у 1872 році.
+    В експозиції: самурайські обладунки, мечі катана, буддійська скульптура, традиційні японські костюми, гравюри укійо-е, кераміка та бронза.
+    Музей знаходиться в парку Уено, поруч із кількома іншими культурними установами.
+  ">
+
+  <img src="img/gallery7.jpg" alt="Музей сучасного мистецтва (MoMA), Нью-Йорк" class="gallery-img" data-full="
+    <strong>Музей сучасного мистецтва (MoMA)</strong> у Нью-Йорку — один із провідних музеїв сучасного і сучасного мистецтва.
+    Тут представлені роботи Пікассо, Ворхола, Кандинського, Джексона Поллока і багато інших.
+    MoMA активно підтримує нові форми мистецтва, дизайн і медіа.
+  ">
+  
+  <img src="img/gallery8.jpg" alt="Ермітаж, Санкт-Петербург" class="gallery-img" data-full="
+    <strong>Державний Ермітаж</strong> у Санкт-Петербурзі — один із найбільших і найстаріших музеїв світу.
+    Його колекція включає понад 3 мільйони експонатів: картини, скульптури, прикраси, археологічні знахідки.
+    Ермітаж відомий своєю розкішною архітектурою, зокрема Зимовим палацом.
+  ">
+
+  <img src="img/gallery9.jpg" alt="Музей Орсе, Париж" class="gallery-img" data-full="
+    <strong>Музей Орсе</strong> у Парижі розташований у колишньому залізничному вокзалі та відомий однією з найбагатших колекцій імпресіоністів і постімпресіоністів.
+    Тут можна побачити роботи Моне, Ренуара, Ван Гога, Дега та інших майстрів кінця XIX — початку XX століть.
+    Це одна з найвідоміших арт-колекцій світу.
+  ">
+  
+  <img src="img/gallery10.jpg" alt="Національний музей антропології, Мехіко" class="gallery-img" data-full="
+    <strong>Національний музей антропології</strong> у Мехіко — найбільший музей доколумбової культури в Латинській Америці.
+    Відомий завдяки артефактам цивілізацій майя, ацтеків і інших корінних народів, серед яких легендарний Камінь Сонця (календар ацтеків).
+    Музей має унікальну архітектуру та сучасні експозиції.
+  ">
+</div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Музеї світу. Всі права захищені.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.getElementById('mainMenu');
+    toggle?.addEventListener('click', () => {
+      menu?.classList.toggle('menu-open');
+    });
+
+  $(function() {
+    $('.gallery-img').on('click', function() {
+      const fullText = $(this).data('full');
+      $('<div></div>').html(`<p>${fullText}</p>`).dialog({
+        title: $(this).attr('alt'),
+        modal: true,
+        width: 600,
+        buttons: {
+          Закрити: function() {
+            $(this).dialog('close');
+          }
+        },
+        open: function() {
+          $('.ui-dialog-titlebar').css({
+            background: 'var(--clr-primary)',
+            color: '#fff'
+          });
+        },
+        close: function() {
+          $(this).remove();
+        }
+      });
+    });
+  });
+  </script>
+</body>
+</html>
